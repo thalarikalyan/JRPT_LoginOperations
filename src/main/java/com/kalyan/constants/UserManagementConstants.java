@@ -9,6 +9,6 @@ public class UserManagementConstants {
 	public static final Integer PASSWORD_LENGTH = 6;
 	public static final String LOCKED = "LOCKED";
 	public static final String UNLOCKED = "UNLOCKED";
-	public static final String URL = "E:\\\\Java8Demos\\\\JRPT-MiniProject-2-Login\\\\MAIL.txt";
+	public static final String URL = "E:\\Java8Demos\\JRPT-MiniProject-2-Login\\MAIL.txt";
 
 }
