@@ -1,0 +1,9 @@
+Hello {NAME},
+
+Your Temporary password is: {PASSWORD}
+
+Go to UnlockPassword URL Give temporary Password and Update your Password with your new password.
+ 
+ 
+ Regards,
+ KIT Solution

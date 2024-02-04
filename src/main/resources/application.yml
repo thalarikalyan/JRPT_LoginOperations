@@ -1,0 +1,36 @@
+#server port number
+server:
+  port: 9898
+#Database Configuration
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 100
+      minimum-idle: 10
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        show-sql: true
+    show-sql: true
+#Email Configuration
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: #############
+    password: ##############
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
